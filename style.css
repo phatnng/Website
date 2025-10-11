@@ -91,7 +91,7 @@ nav .right a span{
 }
 
 .hero-section .headshot img{
-    border-radius: 50%;
+    border-radius: 20%;
     width: 350px;
 }
 
@@ -230,6 +230,7 @@ nav .right a span{
     display: flex;
     gap: 50px;
 }
+
 
 .contact-section .group .text{
     flex: 3;
