@@ -61,7 +61,7 @@
             </div>
             </div>
             <div class = "headshot">
-                <img src = "./images/b0cd1f339f25cb9c37c1ed841e7b74ad.jpg" alts = "Phat Nguyen">
+                <img src = "./images/IMG_7475.JPG" alts = "Phat Nguyen">
             </div>
 
         </section>
@@ -126,28 +126,30 @@
         </section>
         
         <!--Section 4-->
-        <section id = "contact" class="contact-section">
+        <section id="contact" class="contact-section">
             <h2>Contact</h2>
             <div class="group">
                 <div class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus fugiat quis ut voluptates. Dicta ea quasi ut vel. Sunt et eligendi id, a dicta accusantium tenetur sapiente quibusdam repellendus.
+                    If you have any questions, feedback, or would simply like to get in touch, please feel free to contact me using the form. I will respond as promptly as possible
                 </div>
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name">
+            <form action="https://formsubmit.co/ptnguyen425@gmail.com" method="POST">
+                <!-- Hidden fields for FormSubmit options -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
 
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
 
-                    <label for="message">Message</label>
-                    <textarea id="message" cols="30" rows="10"></textarea>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-                    <button type="submit">Send Message</button>
-                </form>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
             </div>
-
         </section>
-        
     </main>
 </body>
 </html>
